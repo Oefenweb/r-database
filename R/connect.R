@@ -12,7 +12,5 @@ connect <- function(db = "oefenweb") {
   if (db == "mathsgarden") {
     dbname <- "mathsgarden_com_app"
   }
-  return(DBI::dbConnect(RMySQL::MySQL(),
-                   dbname = dbname,
-                   default.file = "~/.my.cnf"))
+  return(DBI::dbConnect(RMySQL::MySQL(), dbname = dbname, default.file = "~/.my.cnf"))
 }
