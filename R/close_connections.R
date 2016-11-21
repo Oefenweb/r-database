@@ -1,13 +1,13 @@
 #' Disconnects all database connections.
 #'
-#'@return A logical list, indicating success or failure for all connections.
-#'@examples
-#'# establishing connection to oefenweb database
-#'con1 <- connect("oefenweb")
-#'# establishing connection to mathsgarden database
-#'con2 <- connect("oefenweb")
-#'# closing all database connections
-#'close_connections()
+#' @return A logical list, indicating success or failure for all connections.
+#' @examples
+#' # establishing connection to oefenweb database
+#' con1 <- connect("oefenweb")
+#' # establishing connection to mathsgarden database
+#' con2 <- connect("oefenweb")
+#' # closing all database connections
+#' close_connections()
 #' @export
 close_connections <- function() {
   tmp <- DBI::dbListConnections(DBI::dbDriver(drv = "MySQL"))

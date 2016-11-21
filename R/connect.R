@@ -1,9 +1,9 @@
 #' Connects to a given database.
 #'
-#'@param db A database name, either "oefenweb" or "mathsgarden".
-#'@return A database connection (an object of class MySQLConnection).
-#'@examples
-#'con <- connect("oefenweb")
+#' @param db A database name, either "oefenweb" or "mathsgarden".
+#' @return A database connection (an object of class MySQLConnection).
+#' @examples
+#' con <- connect("oefenweb")
 #' @export
 connect <- function(db = "oefenweb") {
   if (db == "oefenweb") {
