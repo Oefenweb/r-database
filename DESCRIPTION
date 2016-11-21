@@ -1,0 +1,16 @@
+Package: DatabaseOefenweb
+Type: Package
+Title: Establishes and terminates connection(s) to database
+Version: 0.1.0
+Authors@R: person("Jonathan",	"Klaiber",	email	=	"jklaiber@oefenweb.nl",
+		role	=	c("aut",	"cre"))
+Description: Establies a database SQL connection between oefenweb or mathsgarden
+    database and R.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports:
+    DBI (>= 0.5),
+    RMySQL (>= 0.10)
+RoxygenNote: 5.0.1
+Suggests: testthat
