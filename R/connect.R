@@ -1,12 +1,10 @@
 #' Connects to a given database.
 #'
-#'@param db A database name, for example "oefenweb" or "mathsgarden".
-#'@return A database connection (an object of class MySQLConnection).
-#'@examples
-#'con <- connect(db = "oefenwebDatabase_test")
+#' @param dbname A database name, for example "oefenweb_nl_app" or "mathsgarden_com_app".
+#' @return A database connection (an object of class MySQLConnection).
+#' @examples
+#' con <- connect(dbname = "oefenwebDatabase_test")
 #' @export
-connect <- function(db = "oefenweb_nl_app") {
-  return(DBI::dbConnect(RMySQL::MySQL(),
-                        dbname = db,
-                        default.file = "~/.my.cnf"))
+connect <- function(dbname = "oefenweb_nl_app", default.file = "~/.my.cnf") {
+  return(DBI::dbConnect(RMySQL::MySQL(), dbname = dbname, default.file = default.file))
 }
