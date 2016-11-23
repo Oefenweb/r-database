@@ -1,4 +1,4 @@
 library(testthat)
-library(DatabaseOefenweb)
+library(oefenwebDatabase)
 
-test_check("DatabaseOefenweb")
+test_check("oefenwebDatabase")
