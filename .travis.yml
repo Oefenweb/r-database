@@ -15,7 +15,7 @@ before_script:
   - mysql -uroot -e "CREATE USER 'oefenwebDatabase'@'localhost' IDENTIFIED BY 'MADUEGbP3SKL4vU';"
   - mysql -uroot -e "GRANT ALL PRIVILEGES ON oefenwebDatabase_test.* TO 'oefenwebDatabase'@'localhost' WITH GRANT OPTION;"
 
-  - printf "[client]\nhost = 127.0.0.1\mport = 3306\nuser = oefenwebDatabase\npassword = 'MADUEGbP3SKL4vU'" > ~/.my.cnf
+  - printf "[client]\nhost = 127.0.0.1\nport = 3306\nuser = oefenwebDatabase\npassword = 'MADUEGbP3SKL4vU'\n" > ~/.my.cnf
 
 notifications:
   email: false
