@@ -4,7 +4,8 @@
 \alias{connect}
 \title{Connects to a given database.}
 \usage{
-connect(dbname = "oefenweb_nl_app", default.file = "~/.my.cnf")
+connect(dbname = "oefenweb_nl_app", default.file = paste0("~", "/",
+  ".my.cnf"))
 }
 \arguments{
 \item{dbname}{A database name, for example "oefenweb_nl_app" or "mathsgarden_com_app".}
