@@ -1,6 +1,11 @@
 language: r
 cache: packages
 r:
-  - oldrel
-  - release
-  - devel
+- oldrel
+- release
+- devel
+notifications:
+  email: false
+  hipchat:
+    rooms:
+      secure: cgMbCF3oC25ndj6+nYF75yyeH8ZPgpo95mq1vzeOPWfIAoGVqNyWaqbaWNkFC0Kfj3uOui74Kx3S5uPmwhq8iVTQZlWXrnJSVkEhySWStyQF+uG1R32tSh2YEoW57WaXr6cSzl2VdDMlN4kpBqHSLdrz1KOoqDKiWV+kDCa7DHXoDMHmWqDazQ4e5/tL+Pru+og9ypMEsOJw0BYjBgIL5BtPyGJ5LLO3mL3Tcx5Xi/3pdU9PQOdtjDH7sm3bOpskw5969Le+Bhrnx+JTB+MnB+68PAf96Hr/BeNIrXyBEqTzK35GYBxXLulxlU29DZ+hEPBco2qdQPsfpoU2/UHtlbbFjMYfbg1dJ1o6sLC8QHVtegLTnj2XGUoomtPHsS0cwijnXk78Q6wsNyPZjwpphfwRduYRotm7s6MNa07OKWZWgqi7QYlv0w9ya/x2yqxxT/R37q3jid6lOqon1nQui0SbOCYi1rs02WWdG3d9LcgnLurMvCQ9+lYnSsKzG4w+ZxmS7Z/bG8T8FpVJ1SgcAV0kgFsK78Vvc3y/eTHi9reRfAokCDwxAoSkKrVVWFjR3gQwbPyc4QDRr0HVgrZWWceZjGinChOo2PozqnplUMBxi0VjCXvFuAJTh9EhPuNClW5bGBGXeHZCHMibbsZlE+BBVE2+Uf4pwi5PHU5wXrM=
