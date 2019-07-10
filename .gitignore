@@ -28,3 +28,4 @@ Thumbs.db
 .Rhistory
 .RData
 .Ruserdata
+*.Rproj

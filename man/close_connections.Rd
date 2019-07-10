@@ -12,12 +12,3 @@ A logical list, indicating success or failure for all connections.
 \description{
 Disconnects all database connections.
 }
-\examples{
-# establishing connection to oefenweb database
-con1 <- connect(db = "oefenwebDatabase_test")
-# establishing connection to mathsgarden database
-con2 <- connect(db = "oefenwebDatabase_test")
-# closing all database connections
-close_connections()
-}
-

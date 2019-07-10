@@ -14,5 +14,5 @@ LazyData: true
 Imports:
     DBI (>= 0.5),
     RMySQL (>= 0.10)
-RoxygenNote: 5.0.1
+RoxygenNote: 6.1.1
 Suggests: testthat

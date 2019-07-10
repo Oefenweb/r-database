@@ -18,7 +18,3 @@ A database connection (an object of class MySQLConnection).
 \description{
 Connects to a given database.
 }
-\examples{
-con <- connect(dbname = "oefenwebDatabase_test")
-}
-

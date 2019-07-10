@@ -15,10 +15,3 @@ A logical vector of length 1, indicating success or failure.
 \description{
 Disconnects a given database connection.
 }
-\examples{
-# establishing connection to oefenweb database
-con <- connect(db = "oefenwebDatabase_test")
-# terminating connnection to oefenweb database
-close_connection(con)
-}
-

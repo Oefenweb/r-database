@@ -1,4 +1,4 @@
-library("testthat")
-library("oefenwebDatabase")
-
-test_check("oefenwebDatabase")
+# library("testthat") # nolint
+# library("oefenwebDatabase") # nolint
+# 
+# test_check("oefenwebDatabase") # nolint
