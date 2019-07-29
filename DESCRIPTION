@@ -12,7 +12,7 @@ License: file LICENSE
 Encoding: UTF-8
 LazyData: true
 Remotes:
-  github::r-dbi/DBI
+  github::Oefenweb/r-dummy
 Imports:
     DBI (>= 0.5),
     RMySQL (>= 0.10)
