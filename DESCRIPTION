@@ -11,6 +11,8 @@ BugReports: https://github.com/Oefenweb/r-database/issues
 License: file LICENSE
 Encoding: UTF-8
 LazyData: true
+Remotes:
+  github::r-dbi/DBI
 Imports:
     DBI (>= 0.5),
     RMySQL (>= 0.10)
