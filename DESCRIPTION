@@ -16,5 +16,5 @@ Remotes:
 Imports:
     DBI (>= 0.5),
     RMySQL (>= 0.10)
-RoxygenNote: 6.1.1
+RoxygenNote: 7.0.2
 Suggests: testthat

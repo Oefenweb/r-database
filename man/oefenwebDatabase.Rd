@@ -3,7 +3,6 @@
 \docType{package}
 \name{oefenwebDatabase}
 \alias{oefenwebDatabase}
-\alias{oefenwebDatabase-package}
 \title{oefenwebDatabase: A package for managing Oefenweb database connections}
 \description{
 The oefenwebDatabase package provides functionality to establish and
