@@ -15,7 +15,7 @@ connect(
 \item{default.file}{A MySQL configuration file, containing login credentials.}
 }
 \value{
-A database connection (an object of class MySQLConnection).
+A DBIConnection object, as returned by dbConnect().
 }
 \description{
 Connects to a given database.

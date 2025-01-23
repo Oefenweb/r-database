@@ -2,6 +2,7 @@
 % Please edit documentation in R/oefenwebDatabase.R
 \docType{package}
 \name{oefenwebDatabase}
+\alias{oefenwebDatabase-package}
 \alias{oefenwebDatabase}
 \title{oefenwebDatabase: A package for managing Oefenweb database connections}
 \description{
@@ -28,3 +29,20 @@ connection and \preformatted{close_connections()} to terminate all currently act
 connections.
 }
 
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/Oefenweb/r-database}
+  \item Report bugs at \url{https://github.com/Oefenweb/r-database/issues}
+}
+
+}
+\author{
+\strong{Maintainer}: Jonathan Klaiber \email{jklaiber@oefenweb.nl}
+
+Authors:
+\itemize{
+  \item Mischa ter Smitten \email{mtersmitten@oefenweb.nl}
+}
+
+}

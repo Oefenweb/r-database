@@ -15,6 +15,7 @@ Remotes:
   github::Oefenweb/r-dummy
 Imports:
     DBI (>= 0.5),
-    RMySQL (>= 0.10)
-RoxygenNote: 7.0.2
+    RMySQL (>= 0.10),
+    glue
+RoxygenNote: 7.3.2
 Suggests: testthat
