@@ -25,7 +25,7 @@ Suppresses warnings and uses glue_sql for safety.
 domain_ids <- 1:4
 domain_name <- "Vermenigvuldigen"
 query <- "SELECT `name` FROM `domains` WHERE `id` IN ({params[[1]]*}) AND `name` != {params[[2]]}"
-params <- list(domain_ids, domain_name))
+params <- list(domain_ids, domain_name)
 get_query(query, con = con, params = params)
 }
 }
