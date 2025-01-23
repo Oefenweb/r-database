@@ -3,3 +3,4 @@
 export(close_connection)
 export(close_connections)
 export(connect)
+export(get_query)

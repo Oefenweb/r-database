@@ -7,7 +7,7 @@
 close_connection(con)
 }
 \arguments{
-\item{con}{A database connection (an object of class MySQLConnection).}
+\item{con}{A DBIConnection object, as returned by dbConnect().}
 }
 \value{
 A logical vector of length 1, indicating success or failure.
