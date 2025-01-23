@@ -1,7 +1,7 @@
 Package: oefenwebDatabase
 Type: Package
 Title: Establishes and terminates connection(s) to database
-Version: 0.1.7
+Version: 0.2.0
 Authors@R: c(
     person("Jonathan", "Klaiber",  email = "jklaiber@oefenweb.nl", role  = c("aut", "cre")),
     person("Mischa", "ter Smitten", email = "mtersmitten@oefenweb.nl", role = c("aut")))
