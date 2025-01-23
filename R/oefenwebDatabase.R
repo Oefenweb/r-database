@@ -23,4 +23,4 @@
 #'
 #' @docType package
 #' @name oefenwebDatabase
-NULL
+"_PACKAGE"
