@@ -16,7 +16,7 @@
 #' get_query(query, con = con, params = params)
 #' }
 #' @export
-get_query <- function(..., con  = con, params = NULL) {
+get_query <- function(..., con = con, params = NULL) {
   return(
     suppressWarnings(
       DBI::dbGetQuery(con, glue::glue_sql(..., .con  = con))
