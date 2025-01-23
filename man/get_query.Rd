@@ -4,7 +4,7 @@
 \alias{get_query}
 \title{Retrieve results from a query.}
 \usage{
-get_query(..., con, params = NULL)
+get_query(..., con = con, params = NULL)
 }
 \arguments{
 \item{...}{[expressions] Unnamed arguments are taken to be expression string(s) to format.
@@ -23,8 +23,9 @@ Suppresses warnings and uses glue_sql for safety.
 \examples{
 \dontrun{
 domain_ids <- 1:4
-game_name <- "multiplication"
-get_query("SELECT `name` FROM `domains` WHERE `id` IN ({params[[1]]*}) AND `name` != {params[[2]]}",
-          params = list(domain_ids, game_name))
+domain_name <- "Vermenigvuldigen"
+query <- "SELECT `name` FROM `domains` WHERE `id` IN ({params[[1]]*}) AND `name` != {params[[2]]}"
+params <- list(domain_ids, domain_name))
+get_query(query, con = con, params = params)
 }
 }

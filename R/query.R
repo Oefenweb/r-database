@@ -10,12 +10,13 @@
 #' @examples
 #' \dontrun{
 #' domain_ids <- 1:4
-#' game_name <- "multiplication"
-#' get_query("SELECT `name` FROM `domains` WHERE `id` IN ({params[[1]]*}) AND `name` != {params[[2]]}",
-#'           params = list(domain_ids, game_name))
+#' domain_name <- "Vermenigvuldigen"
+#' query <- "SELECT `name` FROM `domains` WHERE `id` IN ({params[[1]]*}) AND `name` != {params[[2]]}"
+#' params <- list(domain_ids, domain_name)
+#' get_query(query, con = con, params = params)
 #' }
 #' @export
-get_query <- function(..., con, params = NULL) {
+get_query <- function(..., con  = con, params = NULL) {
   return(
     suppressWarnings(
       DBI::dbGetQuery(con, glue::glue_sql(..., .con  = con))
