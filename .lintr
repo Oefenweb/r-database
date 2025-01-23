@@ -1,1 +1,5 @@
-linters: with_defaults(line_length_linter(120), camel_case_linter = NULL)
+linters: linters_with_defaults(
+  line_length_linter(120),
+  cyclocomp_linter = NULL,
+  seq_linter = NULL,
+  object_name_linter = NULL)
